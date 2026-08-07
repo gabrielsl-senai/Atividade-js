@@ -37,6 +37,11 @@ document.getElementById("btn3").addEventListener("click",function(){
 // "Novo item" dentro da lista #lista4
 //
 // Dica: use document.createElement() e .appendChild()
+document.getElementById("btn4").addEventListener("click",function(){
+    let NovoItem = document.createElement("li");
+    NovoItem.innerText = "Novo item";
+    document.getElementById("lista4").appendChild(NovoItem);
+})
 
 
 
@@ -46,14 +51,15 @@ document.getElementById("btn3").addEventListener("click",function(){
 //
 // Dica: use .style.backgroundColor = "yellow"
 
-
+document.getElementById("btn5").addEventListener("click",function(){
+    document.getElementById("caixa5").style.backgroundColor = "yellow"
+})
 
 // ---------- Exercicio 6 ----------
 // Ao clicar no botao, aumente o numero do #contador6 em 1
 //
 // Dica: leia o valor atual com .textContent, converta para
 // numero com Number() e some 1
-
 
 
 // ---------- Exercicio 7 ----------
