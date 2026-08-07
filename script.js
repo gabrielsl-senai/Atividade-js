@@ -61,6 +61,11 @@ document.getElementById("btn5").addEventListener("click",function(){
 // Dica: leia o valor atual com .textContent, converta para
 // numero com Number() e some 1
 
+document.getElementById("btn6").addEventListener("click",function(){
+let contador = document.getElementById("contador6");
+contador.textContent = Number(contador.textContent) + 1;
+})
+
 
 // ---------- Exercicio 7 ----------
 // Ao clicar no botao, pegue o valor digitado no #input7
