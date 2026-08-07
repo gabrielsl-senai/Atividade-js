@@ -92,6 +92,13 @@ document.getElementById("texto8").classList.add("destaque")
 //
 // Dica: use .lastElementChild e .removeChild()
 
+document.getElementById("btn9").addEventListener("click",function(){
+let lista = document.getElementById("lista9")
+let ultimo = lista.lastElementChild
+if(ultimo){
+    lista.removeChild(ultimo)
+}
+})
 
 // ---------- Exercicio 10 ----------
 // Ao clicar no botao, troque o src da #imagem10 para
