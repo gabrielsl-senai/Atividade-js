@@ -11,7 +11,7 @@
 // Dica: use document.getElementById() e .textContent
 
 document.getElementById("btn1").addEventListener("click", function(){
-    document.getElementById("texto1").textContent = "Texto alterado com sucesso!"
+document.getElementById("texto1").textContent = "Texto alterado com sucesso!"
 })
 
 // ---------- Exercicio 2 ----------
@@ -19,7 +19,7 @@ document.getElementById("btn1").addEventListener("click", function(){
 //
 // Dica: use .style.color = "blue"
 document.getElementById("btn2").addEventListener("click",function(){
-    document.getElementById("texto2").style.color = "blue"
+document.getElementById("texto2").style.color = "blue"
 })
 
 // ---------- Exercicio 3 ----------
@@ -27,7 +27,7 @@ document.getElementById("btn2").addEventListener("click",function(){
 //
 // Dica: use .style.display = "none"
 document.getElementById("btn3").addEventListener("click",function(){
-    document.getElementById("texto3").style.display = "none"
+document.getElementById("texto3").style.display = "none"
 })
 
 
@@ -52,7 +52,7 @@ document.getElementById("btn4").addEventListener("click",function(){
 // Dica: use .style.backgroundColor = "yellow"
 
 document.getElementById("btn5").addEventListener("click",function(){
-    document.getElementById("caixa5").style.backgroundColor = "yellow"
+document.getElementById("caixa5").style.backgroundColor = "yellow"
 })
 
 // ---------- Exercicio 6 ----------
@@ -73,7 +73,10 @@ contador.textContent = Number(contador.textContent) + 1;
 //
 // Dica: use .value para pegar o texto do input
 
-
+document.getElementById("btn7").addEventListener("click",function(){
+let texto = document.getElementById("input7").value;
+document.getElementById("resultado7").textContent = texto;
+})
 
 // ---------- Exercicio 8 ----------
 // Ao clicar no botao, adicione a classe "destaque" ao #texto8
