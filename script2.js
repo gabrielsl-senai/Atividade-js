@@ -74,7 +74,9 @@ document.getElementById("btn15").addEventListener("click",function(){
 //
 // Dica: use .style.border = "3px solid red"
 
-
+document.getElementById("btn17").addEventListener("click", function(){
+    document.getElementById("caixa17").style.border = "3px solid red"
+    })
 
 // ---------- Exercicio 18 ----------
 // Ao clicar no botao, copie o valor do #input18a
