@@ -20,7 +20,9 @@ document.getElementById("btn11").addEventListener("click", function(){
 //
 // Dica: use .textContent no proprio botao
 
-
+document.getElementById("btn12").addEventListener("click", function(){
+    document.getElementById("texto12").textContent = "Curtido"
+    })
 
 // ---------- Exercicio 13 ----------
 // Ao clicar no botao, mude o tamanho da fonte do
