@@ -39,7 +39,11 @@ document.getElementById("btn13").addEventListener("click", function(){
 //
 // Dica: use .innerHTML = ""
 
-
+document.getElementById("btn14").addEventListener("click",function(){
+    let lista = document.getElementById("lista14")
+        lista.innerHTML = "Excluidos com sucesso"
+    }
+    )
 
 // ---------- Exercicio 15 ----------
 // Ao clicar no botao, pegue o valor do #input15 e
