@@ -52,7 +52,12 @@ document.getElementById("btn14").addEventListener("click",function(){
 // Dica: use document.createElement("li"), .textContent
 // e .appendChild()
 
-
+document.getElementById("btn15").addEventListener("click",function(){
+    let novotexto = document.createElement("li")
+    novotexto.innerText = "novo texto";
+    document.getElementById("lista15").appendChild(novotexto)
+    }
+    )
 
 // ---------- Exercicio 16 ----------
 // Ao clicar no botao, alterne a visibilidade do #texto16
