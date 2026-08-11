@@ -65,6 +65,9 @@ document.getElementById("btn15").addEventListener("click",function(){
 // Se esta escondido (display == "none"), mostre.
 //
 // Dica: use um if/else com .style.display
+const btn16 = document.getElementById("Btn16");
+const texto16 = document.getElementById("texto16");
+
 
 
 
@@ -99,3 +102,6 @@ document.getElementById("btn17").addEventListener("click", function(){
 // e aplique como cor de fundo da #caixa20
 //
 // Dica: input type="color" tambem tem .value
+
+
+
